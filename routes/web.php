@@ -61,6 +61,45 @@ foreach ($services as &$service) {
 }
 unset($service);
 
+$consultingServices = [
+    [
+        'title' => 'Procurement & Strategic Sourcing',
+        'image' => 'images/hero/oil-gas-consulting.png',
+        'description' => 'Specialized sourcing for industrial equipment, technical components, materials, and project requirements across oil & gas, marine, manufacturing, telecommunications, construction, and energy operations.',
+        'points' => ['Oil & gas equipment and accessories', 'Industrial machinery and spare parts', 'OEM sourcing and supplier coordination', 'Valves, pumps, pipes, fittings, safety materials, and technical consumables'],
+    ],
+    [
+        'title' => 'EPC Services',
+        'image' => 'images/hero/heavy-equipment.png',
+        'description' => 'Engineering, Procurement & Construction support services planned around quality, safety, technical execution, vendor coordination, equipment supply, installation support, and project delivery needs.',
+        'points' => ['Project planning and execution support', 'Technical procurement management', 'Equipment supply and installation coordination', 'Maintenance support services'],
+    ],
+    [
+        'title' => 'Logistics & Supply Chain Management',
+        'image' => 'images/hero/container-shipping.png',
+        'description' => 'Shipment and supply chain processes that help clients move goods across global markets with clear documentation, timely delivery, safer cargo handling, and practical end-to-end coordination.',
+        'points' => ['International freight forwarding', 'Import and export management', 'Customs clearing and documentation', 'Warehousing and inventory support'],
+    ],
+    [
+        'title' => 'Industrial Products Supply',
+        'image' => 'images/hero/supply-chain-warehouse.png',
+        'description' => 'Reliable supply of industrial and technical products for oil & gas, marine, manufacturing, construction, power generation, energy, communication, and field operations.',
+        'points' => ['Pipes, fittings, valves, flanges, pumps, and compressors', 'Power generation and energy equipment', 'Mechanical tools, electrical materials, and automation systems', 'Construction materials and lifting equipment'],
+    ],
+    [
+        'title' => 'Marine & Offshore Supply',
+        'image' => 'images/hero/bonus-img3.jpg',
+        'description' => 'Marine and offshore procurement support covering vessel materials, marine equipment, safety products, spare parts, deck machinery, navigation systems, and offshore project requirements.',
+        'points' => ['Marine engines and spare parts', 'Deck machinery and navigation systems', 'Marine safety equipment', 'Offshore tools and operational accessories'],
+    ],
+    [
+        'title' => 'Technical Partnerships & Project Support',
+        'image' => 'images/hero/about-oil-gas-worker.png',
+        'description' => 'Technical collaboration, OEM relationships, vendor management, project logistics, and industrial support services that help clients solve complex sourcing and execution requirements.',
+        'points' => ['Strategic OEM partnerships', 'Vendor management and technical collaborations', 'Project logistics and operational support', 'Cost-conscious project delivery support'],
+    ],
+];
+
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
@@ -68,6 +107,22 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
+Route::get('/consulting', function () {
+    return view('consulting');
+})->name('consulting');
+
+Route::get('/consulting/about', function () {
+    return view('consulting-about');
+})->name('consulting.about');
+
+Route::get('/consulting/services', function () use ($consultingServices) {
+    return view('consulting-services', ['consultingServices' => $consultingServices]);
+})->name('consulting.services');
+
+Route::get('/logistics', function () {
+    return view('logistics');
+})->name('logistics');
 
 Route::get('/services', function () use ($services) {
     return view('services', ['services' => $services]);

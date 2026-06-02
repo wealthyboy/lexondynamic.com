@@ -31,6 +31,9 @@
                         <a class="nav-link" href="{{ route('home') }}">Home</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ route('consulting') }}">Consulting</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" href="{{ route('about') }}">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -192,6 +195,7 @@
                     <h3>Company</h3>
                     <ul>
                         <li><a href="{{ route('home') }}">Home</a></li>
+                        <li><a href="{{ route('consulting') }}">Consulting</a></li>
                         <li><a href="{{ route('about') }}">About Us</a></li>
                         <li><a href="{{ route('services') }}">Services</a></li>
                         <li><a href="{{ route('regions') }}">Regions</a></li>
@@ -225,5 +229,6 @@
             </div>
         </div>
     </footer>
+    @include('partials.whatsapp')
 </body>
 </html>

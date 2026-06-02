@@ -19,16 +19,15 @@ $(function () {
         }
     });
 
-    const heroCarousel = document.getElementById('lexonHero');
-    const showActiveHeroCaption = () => {
-        const activeCaption = heroCarousel?.querySelector('.carousel-item.active .hero-caption');
+    document.querySelectorAll('.hero-slider').forEach((heroCarousel) => {
+        const showActiveHeroCaption = () => {
+            const activeCaption = heroCarousel.querySelector('.carousel-item.active .hero-caption');
 
-        if (activeCaption) {
-            activeCaption.classList.add('caption-in');
-        }
-    };
+            if (activeCaption) {
+                activeCaption.classList.add('caption-in');
+            }
+        };
 
-    if (heroCarousel) {
         heroCarousel.querySelectorAll('.hero-caption').forEach((caption) => {
             caption.classList.remove('caption-in');
         });
@@ -44,7 +43,7 @@ $(function () {
         heroCarousel.addEventListener('slid.bs.carousel', () => {
             window.setTimeout(showActiveHeroCaption, 80);
         });
-    }
+    });
 
     const serviceStories = document.querySelectorAll('[data-service-story]');
     const serviceTimelineLinks = document.querySelectorAll('[data-service-timeline-link]');

@@ -26,6 +26,7 @@
             <div id="primaryNavigation" class="collapse navbar-collapse">
                 <ul class="navbar-nav mx-lg-auto align-items-lg-center gap-lg-2">
                     <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('consulting') }}">Consulting</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About Us</a></li>
                     <li class="nav-item"><a class="nav-link active" href="{{ route('services') }}">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('regions') }}">Regions</a></li>
@@ -96,6 +97,7 @@
                     <h3>Company</h3>
                     <ul>
                         <li><a href="{{ route('home') }}">Home</a></li>
+                        <li><a href="{{ route('consulting') }}">Consulting</a></li>
                         <li><a href="{{ route('about') }}">About Us</a></li>
                         <li><a href="{{ route('services') }}">Services</a></li>
                         <li><a href="{{ route('regions') }}">Regions</a></li>
@@ -127,5 +129,6 @@
             </div>
         </div>
     </footer>
+    @include('partials.whatsapp')
 </body>
 </html>
