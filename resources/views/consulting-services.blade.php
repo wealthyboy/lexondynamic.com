@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Explore Lexon Dynamic Consulting Limited services including procurement, strategic sourcing, EPC support, logistics, supply chain management, industrial product supply, and marine offshore supply.">
+    <meta name="description" content="Explore Lexon Dynamic Consulting Limited services including procurement, strategic sourcing, EPC support, industrial product supply, and marine offshore supply.">
 
     <title>Consulting Services | Lexon Dynamic Consulting Limited</title>
 
@@ -44,7 +44,7 @@
             <div class="container">
                 <span class="section-kicker">Consulting Services</span>
                 <h1>Procurement, EPC, logistics, and industrial project support.</h1>
-                <p>Lexon Dynamic Consulting Limited supports clients with strategic sourcing, technical procurement, EPC support, international trade coordination, industrial products supply, and supply chain management.</p>
+                <p>Lexon Dynamic Consulting Limited supports clients with strategic sourcing, technical procurement, EPC support, international trade coordination, and industrial products supply.</p>
                 <div class="d-flex flex-wrap gap-3 mt-4">
                     <a class="btn btn-lexon btn-lg" href="{{ route('contact') }}">Request Support</a>
                     <a class="btn btn-outline-light btn-lg" href="{{ asset('profiles/lexon-dynamic-consulting-profile.pdf') }}" download>Download Profile</a>
@@ -126,7 +126,7 @@
                     <a class="footer-brand d-inline-flex align-items-center mb-3" href="{{ route('home') }}" aria-label="Lexon Dynamic home">
                         <img src="{{ asset('images/lexon-dynamic-logo-transparent.png') }}" alt="Lexon Dynamic logo">
                     </a>
-                    <p>Consulting, procurement, EPC support, logistics, and supply chain solutions for industrial clients.</p>
+                    <p>Consulting, procurement, EPC support, and industrial supply solutions for clients.</p>
                 </div>
                 <div class="col-sm-6 col-lg-2">
                     <h3>Company</h3>

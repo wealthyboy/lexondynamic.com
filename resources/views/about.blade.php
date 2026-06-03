@@ -77,7 +77,7 @@
                         <span class="section-kicker text-green">Who We Are</span>
                         <h2 class="section-title">A logistics partner built for demanding commercial operations.</h2>
                         <p>Lexon Dynamic Logistics provides freight forwarding, transportation, container shipping, vehicle logistics, heavy equipment movement, marine equipment logistics, warehousing support, and supply chain coordination for businesses that need dependable cargo movement.</p>
-                        <p>Our work supports industries such as oil and gas, construction, marine, manufacturing, energy, automotive, telecommunications, import and export, and industrial supply chains. Every shipment is planned around safety, documentation, timing, route clarity, and the needs of the client.</p>
+                        <p>Our work supports industries such as oil and gas, construction, marine, manufacturing, energy, automotive, telecommunications, and industrial supply chains. Every shipment is planned around safety, documentation, timing, route clarity, and the needs of the client.</p>
                         <p>From local transportation to cross-border freight and international shipping routes, we coordinate practical logistics solutions that help cargo move from origin to destination with less friction.</p>
                     </div>
                     <div class="col-lg-5 animate-on-scroll animate-from-right">

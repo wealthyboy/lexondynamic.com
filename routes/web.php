@@ -70,15 +70,9 @@ $consultingServices = [
     ],
     [
         'title' => 'EPC Services',
-        'image' => 'images/hero/heavy-equipment.png',
+        'image' => 'images/hero/oil-drilling-field.png',
         'description' => 'Engineering, Procurement & Construction support services planned around quality, safety, technical execution, vendor coordination, equipment supply, installation support, and project delivery needs.',
         'points' => ['Project planning and execution support', 'Technical procurement management', 'Equipment supply and installation coordination', 'Maintenance support services'],
-    ],
-    [
-        'title' => 'Logistics & Supply Chain Management',
-        'image' => 'images/hero/container-shipping.png',
-        'description' => 'Shipment and supply chain processes that help clients move goods across global markets with clear documentation, timely delivery, safer cargo handling, and practical end-to-end coordination.',
-        'points' => ['International freight forwarding', 'Import and export management', 'Customs clearing and documentation', 'Warehousing and inventory support'],
     ],
     [
         'title' => 'Industrial Products Supply',

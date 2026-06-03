@@ -318,7 +318,6 @@
                             <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20V9l5 4V9l5 4V7h6v13zM8 17h1M12 17h1M16 17h1" /></svg>Manufacturing</span>
                             <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 20h16M6 20V9l6-5 6 5v11M9 20v-6h6v6" /></svg>Construction</span>
                             <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 20V10M8 14a5 5 0 0 1 8 0M5 11a9 9 0 0 1 14 0M10 20h4" /></svg>Telecommunications</span>
-                            <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7h16v10H4zM8 7v10M16 7v10M8 4h8M7 20h10" /></svg>Import & Export</span>
                             <span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 7l8-4 8 4-8 4zM4 12l8 4 8-4M4 17l8 4 8-4" /></svg>Industrial Supply Chains</span>
                         </div>
                     </div>
