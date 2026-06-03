@@ -65,7 +65,7 @@
                 </div>
 
                 <div class="carousel-item hero-slide">
-                    <img class="hero-bg" src="{{ asset('images/hero/container-shipping.png') }}" alt="Industrial sourcing and international trade coordination">
+                    <img class="hero-bg" src="{{ asset('images/hero/oil-drilling-field.png') }}" alt="Oil drilling field, pipelines, and industrial workers">
                     <div class="container">
                         <div class="row min-vh-100 align-items-center">
                             <div class="col-lg-8 col-xl-7 hero-caption">
@@ -82,7 +82,7 @@
                 </div>
 
                 <div class="carousel-item hero-slide">
-                    <img class="hero-bg" src="{{ asset('images/hero/heavy-equipment.png') }}" alt="Industrial equipment and project support">
+                    <img class="hero-bg" src="{{ asset('images/hero/technical-partnerships-oil-gas.png') }}" alt="Oil and gas technical partners reviewing project plans">
                     <div class="container">
                         <div class="row min-vh-100 align-items-center">
                             <div class="col-lg-8 col-xl-7 hero-caption">
@@ -179,7 +179,7 @@
                                 </div>
                                 <div id="epc" class="col-md-6 col-xl-4">
                                     <article class="service-card h-100">
-                                        <img class="service-image" src="{{ asset('images/hero/heavy-equipment.png') }}" alt="EPC support and equipment coordination">
+                                        <img class="service-image" src="{{ asset('images/hero/oil-drilling-field.png') }}" alt="Oil drilling field, pipelines, and EPC project workers">
                                         <h3>EPC Services</h3>
                                         <p>Engineering, Procurement & Construction support services for energy, industrial, and technical projects.</p>
                                         <ul>
@@ -235,7 +235,7 @@
                                 </div>
                                 <div class="col-md-6 col-xl-4">
                                     <article class="service-card h-100">
-                                        <img class="service-image" src="{{ asset('images/hero/vehicle-transportation.png') }}" alt="Technical partnerships and vendor management">
+                                        <img class="service-image" src="{{ asset('images/hero/technical-partnerships-oil-gas.png') }}" alt="Oil and gas technical partners reviewing project plans">
                                         <h3>Technical Partnerships</h3>
                                         <p>Vendor management, OEM partnerships, technical collaborations, and operational support for complex industrial requirements.</p>
                                         <ul>
