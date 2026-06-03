@@ -3,9 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ $service['description'] }}">
-
-    <title>{{ $service['title'] }} | Lexon Dynamic Logistics</title>
+    @include('partials.seo', [
+        'title' => $service['title'] . ' | Lexon Dynamic Logistics Services',
+        'description' => $service['description'],
+        'image' => asset($service['image']),
+        'organizationName' => 'Lexon Dynamic Logistics',
+        'organizationType' => 'LocalBusiness',
+        'serviceName' => $service['title'],
+        'breadcrumbs' => [
+            ['name' => 'Home', 'url' => route('home')],
+            ['name' => 'Logistics', 'url' => route('logistics')],
+            ['name' => 'Services', 'url' => route('services')],
+            ['name' => $service['title'], 'url' => route('services.show', $slug)],
+        ],
+    ])
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">

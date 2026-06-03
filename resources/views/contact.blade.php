@@ -3,9 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Contact Lexon Dynamic Logistics for freight forwarding, container shipping, vehicle transportation, equipment logistics, marine cargo, and supply chain support.">
-
-    <title>Contact | Lexon Dynamic Logistics</title>
+    @include('partials.seo', [
+        'title' => 'Contact Lexon Dynamic | Procurement, EPC & Logistics Support',
+        'description' => 'Contact Lexon Dynamic for procurement, EPC support, freight forwarding, container shipping, vehicle transportation, equipment logistics, marine cargo, and industrial supply support.',
+        'image' => asset('images/hero/container-shipping.png'),
+        'pageType' => 'ContactPage',
+        'breadcrumbs' => [
+            ['name' => 'Home', 'url' => route('home')],
+            ['name' => 'Contact', 'url' => route('contact')],
+        ],
+    ])
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">

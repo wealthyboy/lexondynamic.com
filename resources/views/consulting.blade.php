@@ -3,9 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Lexon Dynamic Consulting Limited provides procurement, strategic sourcing, EPC support, industrial products supply, project support, and consulting services for oil and gas, energy, marine, manufacturing, and construction clients.">
-
-    <title>Lexon Dynamic Consulting Limited | Procurement, EPC & Industrial Consulting</title>
+    @include('partials.seo', [
+        'title' => 'Lexon Dynamic Consulting Limited | Oil & Gas Procurement, EPC Support in Nigeria',
+        'description' => 'Lexon Dynamic Consulting Limited provides strategic sourcing, procurement, EPC support, industrial products supply, and project support for oil and gas, energy, marine, manufacturing, and construction clients in Nigeria.',
+        'image' => asset('images/hero/oil-gas-consulting.png'),
+        'organizationName' => 'Lexon Dynamic Consulting Limited',
+        'serviceName' => 'Oil and Gas Procurement and EPC Support',
+        'breadcrumbs' => [
+            ['name' => 'Home', 'url' => route('home')],
+            ['name' => 'Consulting', 'url' => route('consulting')],
+        ],
+    ])
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">

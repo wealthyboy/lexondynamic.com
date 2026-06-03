@@ -3,9 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Learn about Lexon Dynamic Consulting Limited, an indigenous consulting, procurement, logistics, and EPC company serving oil and gas, energy, marine, manufacturing, and construction clients.">
-
-    <title>About Us | Lexon Dynamic Consulting Limited</title>
+    @include('partials.seo', [
+        'title' => 'About Lexon Dynamic Consulting Limited | Indigenous Oil & Gas Support Company',
+        'description' => 'Learn about Lexon Dynamic Consulting Limited, an indigenous Nigerian consulting, procurement, logistics, and EPC support company serving oil and gas, energy, marine, manufacturing, and construction clients.',
+        'image' => asset('images/hero/about-oil-gas-worker.png'),
+        'organizationName' => 'Lexon Dynamic Consulting Limited',
+        'pageType' => 'AboutPage',
+        'breadcrumbs' => [
+            ['name' => 'Home', 'url' => route('home')],
+            ['name' => 'Consulting', 'url' => route('consulting')],
+            ['name' => 'About Us', 'url' => route('consulting.about')],
+        ],
+    ])
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">

@@ -3,9 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Lexon Dynamic Logistics provides freight forwarding, transportation, container shipping, vehicle logistics, heavy equipment shipping, marine cargo handling, and supply chain solutions across Nigeria, Canada, United States, and global markets.">
-
-    <title>Lexon Dynamic Logistics | Freight, Transportation & Supply Chain Solutions</title>
+    @include('partials.seo', [
+        'title' => 'Lexon Dynamic Logistics | Freight, Container Shipping & Cargo Transport',
+        'description' => 'Lexon Dynamic Logistics provides freight forwarding, transportation, container shipping, vehicle logistics, heavy equipment movement, marine cargo handling, and supply chain coordination for commercial and industrial clients.',
+        'image' => asset('images/hero/freight-transportation.png'),
+        'organizationName' => 'Lexon Dynamic Logistics',
+        'organizationType' => 'LocalBusiness',
+        'serviceName' => 'Freight Forwarding and Logistics Services',
+        'breadcrumbs' => [
+            ['name' => 'Home', 'url' => route('home')],
+            ['name' => 'Logistics', 'url' => route('logistics')],
+        ],
+    ])
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">

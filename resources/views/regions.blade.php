@@ -3,9 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Lexon Dynamic Logistics provides freight and supply chain support across Nigeria, Canada, the United States, and worldwide shipping routes.">
-
-    <title>Regions | Lexon Dynamic Logistics</title>
+    @include('partials.seo', [
+        'title' => 'Logistics Regions | Nigeria, Canada, USA & Worldwide Routes',
+        'description' => 'Lexon Dynamic Logistics provides freight, container shipping, vehicle transport, marine logistics, and supply chain support across Nigeria, Canada, the United States, and worldwide routes.',
+        'image' => asset('images/hero/global-reach-globe.png'),
+        'organizationName' => 'Lexon Dynamic Logistics',
+        'organizationType' => 'LocalBusiness',
+        'breadcrumbs' => [
+            ['name' => 'Home', 'url' => route('home')],
+            ['name' => 'Logistics', 'url' => route('logistics')],
+            ['name' => 'Regions', 'url' => route('regions')],
+        ],
+    ])
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">

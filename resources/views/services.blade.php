@@ -3,9 +3,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Explore Lexon Dynamic Logistics services including freight transportation, container shipping, vehicle logistics, construction equipment transport, marine equipment logistics, and supply chain support.">
-
-    <title>Services | Lexon Dynamic Logistics</title>
+    @include('partials.seo', [
+        'title' => 'Logistics Services | Freight, Containers, Vehicle & Equipment Transport',
+        'description' => 'Explore Lexon Dynamic Logistics services including freight transportation, container shipping, vehicle logistics, construction equipment transport, marine equipment logistics, warehousing, and supply chain support.',
+        'image' => asset('images/hero/container-shipping.png'),
+        'organizationName' => 'Lexon Dynamic Logistics',
+        'organizationType' => 'LocalBusiness',
+        'serviceName' => 'Logistics and Transportation Services',
+        'breadcrumbs' => [
+            ['name' => 'Home', 'url' => route('home')],
+            ['name' => 'Logistics', 'url' => route('logistics')],
+            ['name' => 'Services', 'url' => route('services')],
+        ],
+    ])
 
     <link rel="icon" href="{{ asset('favicon.ico') }}" sizes="any">
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
