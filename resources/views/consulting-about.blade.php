@@ -55,7 +55,7 @@
                 <h1>Indigenous consulting, procurement, logistics, and EPC support.</h1>
                 <p>We help industrial clients source, plan, procure, coordinate, and execute with the discipline required for oil & gas, energy, marine, manufacturing, and construction operations.</p>
                 <div class="d-flex flex-wrap gap-3 mt-4">
-                    <a class="btn btn-lexon btn-lg" href="{{ asset('profiles/lexon-dynamic-consulting-profile.pdf') }}" download>Download Profile</a>
+                    <a class="btn btn-lexon btn-lg" href="{{ route('contact') }}">Contact Us</a>
                     <a class="btn btn-outline-light btn-lg" href="{{ route('consulting.services') }}">View Services</a>
                 </div>
             </div>
@@ -113,11 +113,11 @@
                 <div class="profile-download-panel animate-on-scroll">
                     <div>
                         <span class="section-kicker text-green">Company Profile</span>
-                        <h2>Download the Lexon Dynamic Consulting Limited profile.</h2>
-                        <p>Get a polished PDF overview of our company, core services, products supplied, industry reach, leadership message, and contact details.</p>
+                        <h2>Request our company profile directly from the team.</h2>
+                        <p>Contact Lexon Dynamic Consulting Limited to receive the latest company profile, service details, and technical support information.</p>
                     </div>
-                    <a class="btn btn-lexon btn-lg" href="{{ asset('profiles/lexon-dynamic-consulting-profile.pdf') }}" download>
-                        Download Profile
+                    <a class="btn btn-lexon btn-lg" href="{{ route('contact') }}">
+                        Contact Us
                     </a>
                 </div>
             </div>
@@ -190,7 +190,7 @@
                     <h3>Consulting</h3>
                     <ul>
                         <li><a href="{{ route('consulting.services') }}">Services</a></li>
-                        <li><a href="{{ asset('profiles/lexon-dynamic-consulting-profile.pdf') }}" download>Company Profile</a></li>
+                        <li><a href="{{ route('contact') }}">Contact Us</a></li>
                         <li><a href="{{ route('contact') }}">Contact</a></li>
                     </ul>
                 </div>

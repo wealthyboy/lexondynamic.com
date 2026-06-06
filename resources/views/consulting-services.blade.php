@@ -56,7 +56,7 @@
                 <p>Lexon Dynamic Consulting Limited supports clients with strategic sourcing, technical procurement, EPC support, international trade coordination, and industrial products supply.</p>
                 <div class="d-flex flex-wrap gap-3 mt-4">
                     <a class="btn btn-lexon btn-lg" href="{{ route('contact') }}">Request Support</a>
-                    <a class="btn btn-outline-light btn-lg" href="{{ asset('profiles/lexon-dynamic-consulting-profile.pdf') }}" download>Download Profile</a>
+                    <a class="btn btn-outline-light btn-lg" href="{{ route('contact') }}">Contact Us</a>
                 </div>
             </div>
         </section>
