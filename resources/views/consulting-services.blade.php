@@ -22,6 +22,71 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700,800" rel="stylesheet" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <style>
+        @media (max-width: 767.98px) {
+            .consulting-services-page .consulting-service-panel {
+                display: flex !important;
+                height: auto !important;
+                min-height: 0 !important;
+                flex-direction: column !important;
+                overflow: hidden !important;
+                border-radius: 14px !important;
+                background: #ffffff !important;
+            }
+
+            .consulting-services-page .consulting-service-panel > img {
+                position: static !important;
+                inset: auto !important;
+                display: block !important;
+                width: 100% !important;
+                height: 220px !important;
+                min-height: 0 !important;
+                max-height: 220px !important;
+                flex: 0 0 220px !important;
+                object-fit: cover !important;
+                object-position: center !important;
+                opacity: 1 !important;
+            }
+
+            .consulting-services-page .consulting-service-content {
+                position: static !important;
+                inset: auto !important;
+                display: block !important;
+                height: auto !important;
+                min-height: 0 !important;
+                padding: 22px 18px 24px !important;
+                overflow: visible !important;
+                color: #111827 !important;
+                background: #ffffff !important;
+                opacity: 1 !important;
+                transform: none !important;
+            }
+
+            .consulting-services-page .consulting-service-content h3 {
+                margin: 0 !important;
+                color: #111827 !important;
+                font-size: 23px !important;
+                line-height: 1.2 !important;
+            }
+
+            .consulting-services-page .consulting-service-content p,
+            .consulting-services-page .consulting-service-content li {
+                color: #667085 !important;
+                font-size: 15px !important;
+                line-height: 1.55 !important;
+                opacity: 1 !important;
+            }
+
+            .consulting-services-page .consulting-service-content p {
+                margin-top: 12px !important;
+            }
+
+            .consulting-services-page .consulting-service-content ul {
+                gap: 9px !important;
+                margin-top: 18px !important;
+            }
+        }
+    </style>
 </head>
 <body class="inner-page">
     <nav id="mainNav" class="navbar navbar-expand-lg fixed-top lexon-nav">
