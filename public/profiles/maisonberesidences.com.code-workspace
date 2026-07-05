@@ -1,28 +1,40 @@
 {
-	"folders": [
-		{
-			"path": "../../../maisonberesidences.com"
-		},
-		{
-			"path": "../../../myshortlet.com"
-		},
-		{
-			"path": "../../../autofactorng"
-		},
-		{
-			"path": "../../../shop"
-		},
-		{
-			"path": "../../../nollyflix-web"
-		},
-		{
-			"path": "../../../../../../../Users/wealthyboyjacob/Documents/Nollyflix"
-		},
-		{
-			"path": "../.."
-		},
-		{
-			"path": "../../../achuthems.com"
-		}
-	]
+    "folders": [
+        {
+            "path": "../../../maisonberesidences.com",
+        },
+        {
+            "path": "../../../myshortlet.com",
+        },
+        {
+            "path": "../../../autofactorng",
+        },
+        {
+            "path": "../../../shop",
+        },
+        {
+            "path": "../../../nollyflix-web",
+        },
+        {
+            "path": "../../../../../../../Users/wealthyboyjacob/Documents/Nollyflix",
+        },
+        {
+            "path": "../..",
+        },
+        {
+            "path": "../../../achuthems.com",
+        },
+        {
+            "path": "../../../lagospadelclub",
+        },
+        {
+            "path": "../../../lagospadelclub.com",
+        },
+        {
+            "path": "../../../karossy-travels",
+        },
+        {
+            "path": "../../../../../../../Users/wealthyboyjacob/Downloads/fortress-website",
+        },
+    ],
 }
